@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seja Bem-Vindo</title>
+    <link rel="stylesheet" href="estilos/poslogin.css">
 </head>
 <body>
-    
+    <header>
+        <h2 id="exibicaoN"></h2>
+    </header>
+    <main>
+        <section>
+            <h3>Confira alguns dos meus projetos:</h3>
+                <p id="fontpijama"><a href="meninpij.html">&#10140; O Menino do Pijama Listrado</a></p>
+            <img src="img/cll.png" alt="">
+        </section>
+    </main>
+
+
+
+    <script>
+        var  mostrarN = localStorage.getItem("usuarioN");
+        if (mostrarN) {
+            document.getElementById("exibicaoN").innerHTML = "Bem-vindo(a) à  página, " + mostrarN;
+        }
+        else {
+            document.getElementById("exibicaoN").innerHTML = "Nome do usuário não foi encontrado"
+        }
+    </script>
 </body>
 </html>

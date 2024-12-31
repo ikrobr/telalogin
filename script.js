@@ -4,8 +4,8 @@ function nameuser(event) {
 
     var nome = document.querySelector("#nome");
     var value = nome.value;
-    var conteudo = document.querySelector("#conteudo");
-    conteudo.innerHTML = value + ", seja bem-vindo(a) à nossa página! &#127811;";
+    localStorage.setItem("usuarioN", value);
+    window.location.href = "poslogin.html";
 }
 
 document.getElementById('login').addEventListener('submit', nameuser);
