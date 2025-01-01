@@ -10,11 +10,17 @@
     <header>
         <h2 id="exibicaoN"></h2>
     </header>
+    <nav>
+        <ul>
+            <li><a href="proj.html" class="pagAtual">Projetos</a></li>
+            <li><a href="espec.html">Especialidades</a></li>
+            <li><a href="cont.html">Contatos</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
-            <h3>Confira alguns dos meus projetos:</h3>
-                <p id="fontpijama"><a href="meninpij.html">&#10140; O Menino do Pijama Listrado</a></p>
-            <img src="img/cll.png" alt="">
+                <p id="fontpijama"><a href="meninpij.html">O Menino do Pijama Listrado</a></p>
+            <a href="meninpij.html"><img src="img/cll.png" alt=""></a>
         </section>
     </main>
 
@@ -28,6 +34,14 @@
         else {
             document.getElementById("exibicaoN").innerHTML = "Nome do usuário não foi encontrado"
         }
+    </script>
+    <script>
+        var link = document.querySelectorAll('nav ul li a')
+        link.forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('pagAtual');
+            }
+        })
     </script>
 </body>
 </html>

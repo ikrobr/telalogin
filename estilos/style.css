@@ -53,7 +53,7 @@ input[type="submit"] {
     color: white;
     background-color: #20bd45;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);
-    border: 2px solid rgba(0, 0, 0, 0.722);
+    border: 2px solid rgba(0, 0, 0, 0.476);
 }
 
 input[type="submit"]:hover {
