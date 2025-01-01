@@ -21,6 +21,7 @@
             margin: 0%;
             color: white;
             text-shadow: 0.5px 0.5px 1px black;
+            margin-bottom: 40px;
         }
 
         main {
@@ -28,10 +29,20 @@
         }
 
         p {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             text-indent: 10px;
             text-align: left;
             hyphens: auto;
+        }
+
+        button {
+            width: 130px;
+            font-size: 20px;
+            border-radius: 4px;
+            color: white;
+            background-color: #20bd45;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);
+            border: 1px solid rgba(0, 0, 0, 0.464);
         }
     </style>
 </head>
@@ -43,18 +54,20 @@
     <main>
         <section>
             <p>
-                Sou desenvolvedor web há mais de 2 anos, trabalhando com PHP, HTML, CSS e JavaScript. Ultimamente, estou
+                Sou desenvolvedor web há mais de 2 anos, trabalhando com <strong>PHP, HTML, CSS e JavaScript</strong>.
+                Ultimamente, estou
                 bem
                 focado no desenvolvimento web, mas também quero me aprofundar no back-end e aprender ainda mais.
             </p>
 
             <p>
-                Estou cursando Análise e Desenvolvimento de Sistemas na Uninter há pouco mais de um ano. Tenho 20 anos e
+                Estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na Uninter há pouco mais de um
+                ano. Tenho 20 anos e
                 estou em busca de oportunidades para me firmar na área, melhorar profissionalmente, onde possa
                 colocar a mão na massa em vários projetos que contribuam para algo.
             </p>
 
-
+            <button onclick="javascript:history.go(-1)">Voltar</button>
         </section>
     </main>
 </body>
