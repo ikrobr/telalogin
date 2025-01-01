@@ -9,8 +9,8 @@
 header {
     background-color: #20bd45;
     width: 100%;
-    padding-top: 35px;
-    padding-bottom: 30px;
+    padding-top: 45px;
+    padding-bottom: 40px;
     text-align: center;
     margin: 0%;
     color: white;
@@ -20,12 +20,12 @@ header {
 
 
 nav ul {
-    background-color: #20bd45;
+    background-color: #319248;
     text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.588);
     display: flex;
     list-style: none;
     gap: 16px;
-    padding: 8px;
+    padding: 10px;
     padding-left: 0px;
     margin-bottom: 23px;
 }
@@ -37,11 +37,11 @@ nav ul li a {
 }
 
 nav ul li a.pagAtual {
-    background-color: #1f8c39;
+    background-color: #293D2E;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 0.5px 0.5px 1px black;
-    padding: 8px;
+    padding: 10px;
 }
 
 main {
@@ -54,21 +54,23 @@ img {
     margin: auto;
 }
 
-#fontpijama {
-    background-color: #1f8c39;
+#pijama {
+    background-color: #293D2E;
     font-size: 19px;
     font-weight: lighter;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
+    padding: 10px;
 }
 
-#fontpijama a{
+#pijama a{
     color: white;
     font-family: 'Times New Roman', Times, serif;  
     text-shadow: 0.5px 0.5px 1px black;
+    text-decoration: none;
 }
 
-#fontpijama a:hover {
+#pijama a:hover {
     color: #c1f1ce;
     text-shadow: 0.5px 0.5px 1px black;
 }
