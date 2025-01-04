@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor: ;
+}
+
+header {
+    padding: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+section p {
+    text-indent: 8px;
+    hyphens: auto;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+div iframe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 203px;
+    width: 360px;
+}
