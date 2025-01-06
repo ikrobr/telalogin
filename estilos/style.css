@@ -74,3 +74,80 @@ footer a:hover {
     text-decoration: underline;
     color: #20bd45;
 }
+
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    main {
+        height: 40vh;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    section {
+        width: 460px;
+        height: 350px;
+        margin-top: -40px;
+        font-size: 22px;
+    }
+
+    input[type="text"] {
+        height: 45px;
+    }
+
+    input[type="submit"] {
+        height: 45px;
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 20px;
+
+    }
+}
+
+
+/*PC*/
+@media screen and (min-width: 992px) {
+    main {
+        height: 50vh;
+    }
+
+    img {
+        margin-top: -80px;
+        margin-bottom: -10px;
+        width: 25%;
+    }
+
+    section {
+        width: 600px;
+        height: 400px;
+        font-size: 22px;
+    }
+
+    label {
+        margin-top: -60px;
+    }
+
+    input[type="text"] {
+        padding-left: 5px;
+        height: 60px;
+        border-radius: 4px;
+        margin-top: 5px;
+        border: 0.1px solid rgba(0, 0, 0, 0.764);
+        font-size: 22px;
+    }
+
+    input[type="submit"] {
+        height: 60px;
+        font-size: 30px;
+        margin-bottom: -90px;
+    }
+
+    footer {
+        font-size: 17px;
+        padding-top: 25px;
+    }
+}
