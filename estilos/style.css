@@ -124,7 +124,7 @@ footer a:hover {
     section {
         width: 600px;
         height: 400px;
-        font-size: 22px;
+        font-size: 26px;
     }
 
     label {
@@ -137,7 +137,7 @@ footer a:hover {
         border-radius: 4px;
         margin-top: 5px;
         border: 0.1px solid rgba(0, 0, 0, 0.764);
-        font-size: 22px;
+        font-size: 24px;
     }
 
     input[type="submit"] {

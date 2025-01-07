@@ -83,3 +83,83 @@ img {
     color: #c1f1ce;
     text-shadow: 0.5px 0.5px 1px black;
 }
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width:992px){
+    header {
+        padding-top: 65px;
+        padding-bottom: 57px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 25px;
+    }
+
+    nav ul {
+        gap: 55px;
+        padding: 20px;
+        padding-left: 0px;
+        margin-bottom: 23px;
+        font-size: 20px;
+    }    
+
+    nav ul li a.pagAtual {
+        padding: 20px;
+    }
+
+    #pijama {
+        font-size: 26px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+}
+
+/*PC , TELAS GRANDES...*/
+@media screen and (min-width:992px) {
+    header {
+        padding-top: 75px;
+        padding-bottom: 67px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 25px;
+    }
+
+    nav ul {
+        gap: 120px;
+        padding: 20px;
+        padding-left: 0px;
+        margin-bottom: 23px;
+        font-size: 20px;
+    }    
+
+    nav ul li a.pagAtual {
+        padding: 20px;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    #pijama {
+        font-size: 26px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    main {
+        width: 50vw;
+        margin: auto;
+    }
+
+    a img {
+        height: 70vh;
+    }
+
+}

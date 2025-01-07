@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor: ;
+    /*usar variáveis*/
 }
 
 header {
@@ -67,3 +67,80 @@ footer ul li {
     list-style: none;
     margin: 10px;
 }
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    header {
+        padding: 120px;
+        font-size: 25px;
+    }
+
+    main {
+        font-size: 24px;
+    }
+
+    img {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    h3 {
+        margin: 10px;
+        margin-top: 70px;
+    }
+
+    div iframe{
+        height: 445px;
+        width: 790px;
+        margin-bottom: 20px;
+    }
+}
+
+    footer {
+        font-size: 25px;
+    }
+
+    /*PC*/
+    @media screen and (min-width:992px) {
+        header {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            font-size: 25px;
+            margin-bottom: 40px;
+        }
+
+        main {
+            width: 70vw;
+            margin: auto;
+            font-size: 25px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        img {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 65vw;
+            height: 70vh;
+        }
+
+        h3 {
+            margin-top: 70px;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        div iframe{
+            width: 65vw;
+            height: 81vh;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            width: 80vw;
+            margin: auto;
+            text-align: center;
+        }
+    }
