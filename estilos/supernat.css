@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+    flex-flow: row nowrap;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
